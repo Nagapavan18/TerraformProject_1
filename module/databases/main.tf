@@ -17,7 +17,7 @@ resource "aws_kms_key" "example" {
 resource "aws_db_instance" "default" {
   allocated_storage             = 10
   identifier                    = "rds-db"
-  db_name                       = "mydb1"
+  db_name                       = "mydb"
   engine                        = "mysql"
   engine_version                = "5.7"
   instance_class                = "db.t3.micro"
